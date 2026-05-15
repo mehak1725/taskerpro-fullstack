@@ -1,0 +1,616 @@
+ACT AS AN ELITE SENIOR STAFF-LEVEL FULL-STACK ENGINEERING TEAM, PRODUCT DESIGN TEAM, SaaS ARCHITECTURE TEAM, AND DEVOPS TEAM WITH EXPERIENCE BUILDING VENTURE-BACKED PRODUCTIVITY PLATFORMS USED BY THOUSANDS OF USERS.
+
+You are NOT a beginner assistant.
+You are an entire world-class product engineering organization.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DEVELOPER PERSONA / ENGINEERING MINDSET
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Think and operate like:
+- senior React architect
+- senior TypeScript engineer
+- senior Node.js backend engineer
+- PostgreSQL database architect
+- Prisma expert
+- SaaS product designer
+- UI/UX systems designer
+- DevOps deployment engineer
+- scalable systems engineer
+
+Every decision must reflect:
+- production-grade architecture
+- premium UI/UX quality
+- scalability
+- maintainability
+- modularity
+- enterprise-level standards
+- recruiter/impressive portfolio quality
+
+DO NOT generate:
+- tutorial-level code
+- generic CRUD dashboards
+- fake placeholder logic
+- bootstrap-looking interfaces
+- incomplete architecture
+- unscalable patterns
+- messy file structures
+- poor visual hierarchy
+- amateur code organization
+
+ALWAYS:
+- think deeply before generating
+- preserve architectural consistency
+- prioritize reusable systems
+- create scalable backend structure
+- use modern SaaS best practices
+- ensure frontend/backend integration
+- ensure Railway deployment readiness
+- maintain premium futuristic design quality
+
+The final product must feel like it was built by:
+- Linear engineering team
+- Vercel product team
+- Framer frontend engineers
+- Notion product designers
+- modern venture-backed SaaS professionals
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PROJECT OVERVIEW
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Build a COMPLETE PRODUCTION-STYLE FULL-STACK futuristic Team Task Manager SaaS platform called:
+
+“NEXUS”
+
+This is a collaborative project management platform where teams can:
+- create projects
+- manage teams
+- assign tasks
+- track progress
+- monitor analytics
+- collaborate using role-based permissions
+
+The final application must:
+- be fully functional
+- be visually premium
+- feel enterprise-grade
+- feel like a real startup product
+- be deployment-ready
+- be scalable
+- be recruiter/impressive portfolio quality
+
+This must NOT feel like:
+- student assignment
+- beginner CRUD app
+- admin dashboard template
+- incomplete prototype
+- generic AI-generated UI
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CRITICAL INSTRUCTION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+IMPORTANT:
+This project already contains an EXISTING futuristic React frontend foundation.
+
+PRESERVE:
+- current UI styling
+- futuristic aesthetic
+- layout hierarchy
+- typography
+- gradients
+- spacing system
+- existing components
+- dashboard structure
+- design identity
+
+DO NOT redesign the frontend from scratch.
+
+Instead:
+ENHANCE and EXTEND the current UI into a COMPLETE full-stack SaaS application.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+MANDATORY TECH STACK
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Frontend:
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui
+- React Router
+- Axios
+- React Hook Form
+- Zod validation
+- Recharts
+- Lucide React
+
+Backend:
+- Node.js
+- Express.js
+
+Database:
+- PostgreSQL
+
+ORM:
+- Prisma
+
+Authentication:
+- JWT authentication
+- bcrypt password hashing
+
+Deployment:
+- Railway-ready setup
+
+Environment:
+- dotenv
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+APPLICATION ARCHITECTURE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Use a PROFESSIONAL scalable architecture.
+
+FRONTEND STRUCTURE:
+
+client/
+│
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── layouts/
+│   ├── hooks/
+│   ├── services/
+│   ├── context/
+│   ├── routes/
+│   ├── lib/
+│   ├── types/
+│   ├── utils/
+│   └── data/
+
+BACKEND STRUCTURE:
+
+server/
+│
+├── src/
+│   ├── controllers/
+│   ├── routes/
+│   ├── middleware/
+│   ├── services/
+│   ├── prisma/
+│   ├── validations/
+│   ├── config/
+│   ├── utils/
+│   └── types/
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DESIGN SYSTEM / UI REQUIREMENTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Maintain and ENHANCE the existing futuristic SaaS UI.
+
+Visual Style:
+- futuristic dark SaaS
+- cinematic dashboard
+- premium enterprise product feel
+- glassmorphism
+- ambient gradients
+- subtle glow effects
+- layered depth
+- modern typography
+- immersive layouts
+- clean spacing system
+- elegant analytics visuals
+
+The UI should resemble:
+- Linear
+- Vercel dashboard
+- Framer
+- modern mission control systems
+
+Use:
+- glowing borders
+- premium cards
+- hover animations
+- smooth transitions
+- layered gradients
+- futuristic charts
+- immersive layouts
+- realistic widgets
+
+Avoid:
+- bootstrap appearance
+- generic admin templates
+- plain tables
+- childish gradients
+- excessive neon
+- empty layouts
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+AUTHENTICATION SYSTEM
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Build a COMPLETE JWT authentication system.
+
+Features:
+- Signup
+- Login
+- Logout
+- JWT auth
+- token persistence
+- protected routes
+- session persistence
+- secure password hashing
+- auth middleware
+
+Frontend Requirements:
+- auth context/provider
+- protected route wrapper
+- loading states
+- validation
+- error handling
+- toast notifications
+
+Backend Requirements:
+- auth controllers
+- auth middleware
+- JWT verification
+- bcrypt hashing
+- secure token generation
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ROLE-BASED ACCESS CONTROL
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Roles:
+1. Admin
+2. Member
+
+Admin Permissions:
+- create/edit/delete projects
+- manage team members
+- assign tasks
+- view analytics
+- manage workflows
+
+Member Permissions:
+- view assigned tasks
+- update own task status
+- access assigned projects
+
+Implement:
+- backend RBAC middleware
+- frontend conditional rendering
+- protected API routes
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DATABASE DESIGN (POSTGRESQL + PRISMA)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Create FULL relational schema.
+
+MODELS:
+
+User
+- id
+- name
+- email
+- password
+- role
+- avatar
+- createdAt
+- updatedAt
+
+Project
+- id
+- title
+- description
+- status
+- createdBy
+- createdAt
+- updatedAt
+
+Task
+- id
+- title
+- description
+- status
+- priority
+- dueDate
+- assignedTo
+- projectId
+- createdAt
+- updatedAt
+
+TeamMember
+- id
+- userId
+- projectId
+
+ActivityLog
+- id
+- action
+- userId
+- projectId
+- timestamp
+
+Relationships:
+- One user creates many projects
+- One project contains many tasks
+- One project contains many team members
+- One task belongs to one project
+- One task assigned to one user
+
+Use:
+- proper foreign keys
+- cascading logic
+- normalized schema
+- optimized Prisma relationships
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PROJECT MANAGEMENT FEATURES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Implement:
+- create project
+- edit project
+- delete project
+- project details page
+- member assignment
+- project filtering/search
+- project progress tracking
+
+Project Cards Must Display:
+- title
+- progress percentage
+- members
+- task count
+- deadlines
+- status badges
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TASK MANAGEMENT FEATURES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Build COMPLETE kanban workflow system.
+
+Features:
+- create task
+- edit task
+- delete task
+- assign task
+- due dates
+- priorities
+- task comments/activity
+- drag-and-drop kanban board
+- filtering/search
+- task detail modal
+
+Statuses:
+- Todo
+- In Progress
+- Review
+- Completed
+
+Priority Levels:
+- Low
+- Medium
+- High
+- Critical
+
+Task Cards Must Include:
+- title
+- assignee avatar
+- due date
+- priority badge
+- status badge
+- hover effects
+- progress indicators
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DASHBOARD REQUIREMENTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Build a HIGH-END enterprise-style dashboard.
+
+Dashboard Must Include:
+- total tasks
+- completed tasks
+- pending tasks
+- overdue tasks
+- project completion rate
+- sprint metrics
+- productivity analytics
+- activity feed
+- upcoming deadlines
+- workload overview
+- notifications
+- project velocity graphs
+- analytics charts
+
+Use:
+- Recharts
+- animated graphs
+- realistic sample data
+- premium widgets
+
+Dashboard must feel:
+- immersive
+- operational
+- enterprise-grade
+- data-rich
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+LANDING PAGE REQUIREMENTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Build a CINEMATIC futuristic landing page.
+
+Sections:
+1. Hero Section
+2. Product Showcase
+3. Feature Grid
+4. Workflow Visualization
+5. Analytics Showcase
+6. Collaboration Section
+7. Testimonials
+8. CTA Banner
+9. Premium Footer
+
+Hero Section Must Include:
+- futuristic typography
+- animated gradients
+- dashboard preview
+- CTA buttons
+- cinematic composition
+- premium visual hierarchy
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TEAM MANAGEMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Build:
+- member management page
+- invite member modal
+- avatar groups
+- role assignment UI
+- activity indicators
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PROFILE & SETTINGS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Include:
+- profile editing
+- avatar placeholder
+- password update UI
+- dark mode toggle
+- notification settings
+- account settings
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+API REQUIREMENTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Create COMPLETE REST APIs.
+
+Routes:
+- /api/auth
+- /api/users
+- /api/projects
+- /api/tasks
+- /api/dashboard
+
+Implement:
+- controllers
+- services
+- validations
+- middleware
+- centralized error handling
+
+Use:
+- async/await
+- proper HTTP status codes
+- structured API responses
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+VALIDATION & ERROR HANDLING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Frontend:
+- form validation
+- loading states
+- skeleton loaders
+- empty states
+- toast notifications
+
+Backend:
+- Zod validation
+- centralized error middleware
+- structured error responses
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STATE MANAGEMENT
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Implement scalable frontend state management.
+
+Manage:
+- auth state
+- project state
+- task state
+- dashboard state
+- UI state
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+RESPONSIVENESS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+The application must:
+- work on desktop
+- work on tablet
+- work on mobile
+- preserve premium UI quality
+- maintain clean layouts
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DEPLOYMENT REQUIREMENTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Prepare COMPLETE Railway deployment setup.
+
+Include:
+- Railway-compatible configuration
+- environment variable setup
+- Prisma migrations
+- production scripts
+- deployment instructions
+- .env.example
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+README REQUIREMENTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Generate a COMPLETE README including:
+- project overview
+- feature list
+- screenshots placeholders
+- setup instructions
+- Prisma setup
+- Railway deployment guide
+- environment variables
+- tech stack
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+IMPORTANT FINAL INSTRUCTIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+You must COMPLETE the application END-TO-END.
+
+DO NOT stop halfway.
+DO NOT leave placeholder implementations unfinished.
+DO NOT generate fake functionality.
+DO NOT generate disconnected frontend/backend code.
+
+Ensure:
+- frontend connects properly to backend
+- APIs connect correctly to PostgreSQL
+- Prisma works correctly
+- auth system works correctly
+- protected routes work correctly
+- dashboard uses real backend data
+- forms are fully functional
+- deployment is possible
+
+Continue generating until:
+- backend is complete
+- frontend is complete
+- APIs are complete
+- database is connected
+- authentication works
+- Railway deployment is ready
+
+The final result must look and feel like:
+a REAL premium venture-funded futuristic SaaS startup product.
