@@ -14,7 +14,7 @@ const AuthContext = createContext<AuthContextType | undefined>(undefined);
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [token, setToken] = useState<string | null>(() => {
-    return localStorage.getItem("nexus_token");
+    return localStorage.getItem("taskerpro_token");
   });
   const [user, setUser] = useState<User | null>(null);
   
@@ -41,20 +41,20 @@ export function AuthProvider({ children }: { children: React.ReactNode }) {
     if (isError) {
       setToken(null);
       setUser(null);
-      localStorage.removeItem("nexus_token");
+      localStorage.removeItem("taskerpro_token");
     }
   }, [isError]);
 
   const login = (newToken: string, newUser: User) => {
     setToken(newToken);
     setUser(newUser);
-    localStorage.setItem("nexus_token", newToken);
+    localStorage.setItem("taskerpro_token", newToken);
   };
 
   const logout = () => {
     setToken(null);
     setUser(null);
-    localStorage.removeItem("nexus_token");
+    localStorage.removeItem("taskerpro_token");
   };
 
   return (

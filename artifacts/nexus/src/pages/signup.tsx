@@ -63,7 +63,7 @@ export default function SignupPage() {
             <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary/20 ring-1 ring-primary/40">
               <Zap className="h-5 w-5 text-primary" strokeWidth={2.5} />
             </div>
-            <span className="text-xl font-bold tracking-tight">NEXUS</span>
+            <span className="text-xl font-bold tracking-tight">TaskerPro</span>
           </Link>
           <h1 className="text-2xl font-bold text-foreground">Create your workspace</h1>
           <p className="mt-1 text-sm text-muted-foreground">Join thousands of high-performance teams</p>

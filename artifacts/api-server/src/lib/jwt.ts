@@ -1,6 +1,6 @@
 import jwt from "jsonwebtoken";
 
-const SECRET = process.env.SESSION_SECRET ?? "nexus_secret_key";
+const SECRET = process.env.SESSION_SECRET ?? "taskerpro_secret_key";
 
 export interface JwtPayload {
   userId: number;

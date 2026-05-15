@@ -12,7 +12,7 @@ const features = [
 ];
 
 const testimonials = [
-  { name: "Sarah K.", role: "Engineering Lead @ Vertex", text: "NEXUS transformed how our team operates. The real-time visibility into every project is unlike anything we've used before." },
+  { name: "Sarah K.", role: "Engineering Lead @ Vertex", text: "TaskerPro transformed how our team operates. The real-time visibility into every project is unlike anything we've used before." },
   { name: "Marcus T.", role: "CTO @ Foundry Labs", text: "We cut our sprint planning time in half. The analytics alone justify every penny — our velocity has never been this clear." },
   { name: "Anika P.", role: "Product Manager @ Orbital", text: "The dashboard feels like mission control. Our entire team is obsessed with it. Adoption was immediate." },
 ];
@@ -37,7 +37,7 @@ export default function LandingPage() {
             <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary/20 ring-1 ring-primary/40">
               <Zap className="h-4 w-4 text-primary" strokeWidth={2.5} />
             </div>
-            <span className="text-lg font-bold tracking-tight">NEXUS</span>
+            <span className="text-lg font-bold tracking-tight">TaskerPro</span>
           </div>
           <div className="hidden items-center gap-8 md:flex">
             {["Features", "How it works", "Team", "Pricing"].map((item) => (
@@ -103,7 +103,7 @@ export default function LandingPage() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="mx-auto mb-10 max-w-2xl text-lg text-muted-foreground"
           >
-            NEXUS gives engineering teams the clarity, velocity, and control they need to ship extraordinary products. Real-time analytics, intelligent task management, and seamless collaboration — all in one cinematic workspace.
+            TaskerPro gives engineering teams the clarity, velocity, and control they need to ship extraordinary products. Real-time analytics, intelligent task management, and seamless collaboration — all in one cinematic workspace.
           </motion.p>
 
           <motion.div
@@ -276,11 +276,11 @@ export default function LandingPage() {
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 text-sm text-muted-foreground md:flex-row">
           <div className="flex items-center gap-2">
             <Zap className="h-4 w-4 text-primary" />
-            <span className="font-bold text-foreground">NEXUS</span>
+            <span className="font-bold text-foreground">TaskerPro</span>
             <span className="mx-2 text-border">·</span>
             <span>Enterprise Task Management</span>
           </div>
-          <p>© {new Date().getFullYear()} NEXUS. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} TaskerPro. All rights reserved.</p>
         </div>
       </footer>
     </div>

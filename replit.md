@@ -1,4 +1,4 @@
-# NEXUS — Futuristic Team Task Manager
+# TaskerPro — Futuristic Team Task Manager
 
 A full-stack SaaS platform for engineering teams. Cinematic dark UI (Linear/Vercel aesthetic), real-time analytics dashboard, kanban project management, team collaboration, and role-based access control.
 

@@ -46,7 +46,7 @@ export function AppLayout({ children }: { children: React.ReactNode }) {
           <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-primary/20 ring-1 ring-primary/40">
             <Zap className="h-4 w-4 text-primary" strokeWidth={2.5} />
           </div>
-          <span className="text-lg font-bold tracking-tight text-foreground">NEXUS</span>
+          <span className="text-lg font-bold tracking-tight text-foreground">TaskerPro</span>
           <button
             className="ml-auto text-muted-foreground lg:hidden"
             onClick={() => setSidebarOpen(false)}
