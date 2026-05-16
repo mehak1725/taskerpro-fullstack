@@ -1,23 +1,7 @@
 {
   "$schema": "https://railpack.com/schema.json",
-  "provider": {
-    "name": "node"
-  },
-  "steps": {
-    "build": {
-      "commands": [
-        "pnpm install",
-        "pnpm -r --if-present run build"
-      ],
-      "caches": [
-        "pnpm"
-      ]
-    }
-  },
+  "provider": "node",
   "deploy": {
-    "startCommand": "node artifacts/api-server/railway-start.mjs",
-    "variables": {
-      "NODE_ENV": "production"
-    }
+    "startCommand": "node artifacts/api-server/railway-start.mjs"
   }
 }
