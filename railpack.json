@@ -1,6 +1,9 @@
 {
   "$schema": "https://railpack.com/schema.json",
   "provider": "node",
+  "build": {
+    "cmd": "pnpm install && pnpm run build"
+  },
   "deploy": {
     "startCommand": "node artifacts/api-server/railway-start.mjs"
   }
