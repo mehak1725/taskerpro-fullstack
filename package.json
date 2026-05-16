@@ -10,7 +10,7 @@
     "typecheck": "pnpm run typecheck:libs && pnpm -r --filter \"./artifacts/**\" --filter \"./scripts\" --if-present run typecheck"
   },
   "private": true,
-  "packageManager": "pnpm@11.1.2",
+  "packageManager": "pnpm@9.15.9",
   "engines": {
     "node": ">=20.11.0"
   },
