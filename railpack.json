@@ -1,0 +1,23 @@
+{
+  "$schema": "https://railpack.com/schema.json",
+  "provider": {
+    "name": "node"
+  },
+  "steps": {
+    "build": {
+      "commands": [
+        "pnpm install --frozen-lockfile",
+        "pnpm -r --if-present run build"
+      ],
+      "caches": [
+        "pnpm"
+      ]
+    }
+  },
+  "deploy": {
+    "startCommand": "node artifacts/api-server/railway-start.mjs",
+    "variables": {
+      "NODE_ENV": "production"
+    }
+  }
+}
