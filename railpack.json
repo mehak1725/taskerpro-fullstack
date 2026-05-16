@@ -6,7 +6,7 @@
   "steps": {
     "build": {
       "commands": [
-        "pnpm install --frozen-lockfile",
+        "pnpm install",
         "pnpm -r --if-present run build"
       ],
       "caches": [
